@@ -1,0 +1,652 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+Georgian:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* Ensure the body and html take up the full height */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Ensures padding and border don't affect layout size */
+}
+
+nav {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    /* Remove default bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* Horizontal layout */
+    justify-content: center;
+    /* Even spacing between items */
+    align-items: center;
+    /* Vertically center the items */
+    gap: 60px;
+}
+
+nav ul li {
+    display: inline;
+    /* Ensures the list items are inline (horizontally placed) */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #fdfdfb;
+}
+
+.section-1 {
+    background-attachment: fixed;
+    /* Keep the background fixed while scrolling */
+    background-image: url('roques.png');
+    background-size: cover;
+    /* Make the image cover the entire section */
+    background-position: center;
+    /* Center the image */
+    height: 100vh;
+    /* Add a height to the section */
+    width: 100%;
+    /* Ensure it stretches across the full width */
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-size: 18px;
+    color: #F0F0F0;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+hr {
+    border: 0;
+    /* Remove default border */
+    border-top: 1px solid #F0F0F0;
+    /* Set the line's color and thickness */
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.name {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    /* Set flexbox for the parent */
+    justify-content: center;
+    /* Center horizontally */
+    padding-top: 185px;
+    -webkit-text-stroke: 0.2px #0a0808;
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-size: 100px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    /* 2px right, 2px down, blurred with a semi-transparent black color */
+    color: #f0f0f0;
+}
+
+.name-footer {
+    margin: top 0;
+    display: flex;
+    /* Set flexbox for the parent */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Vertically center the items */
+    -webkit-text-stroke: 0.2px #0a0808;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    /* 2px right, 2px down, blurred with a semi-transparent black color */
+    font-size: 26px;
+    color: #f0f0f0;
+}
+
+.name-pic-footer {
+    margin: top 5px;
+    display: flex;
+    /* Set flexbox for the parent */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Vertically center the items */
+    -webkit-text-stroke: 0.2px #0a0808;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 2px 2px 5px #0000004d;
+    /* 2px right, 2px down, blurred with a semi-transparent black color */
+    font-size: 26px;
+    color: #f6f6f6;
+}
+
+.contact-buttoms {
+    margin: top 5px;
+    display: flex;
+    /* Set flexbox for the parent */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Vertically center the items */
+}
+
+.button {
+    width: 130px;
+    /* Set the width of the button */
+    height: auto;
+    /* Keep the aspect ratio */
+    transition: color 0.3s ease;
+    /* Smooth color transition */
+    cursor: pointer;
+}
+
+.button-github {
+    width: 100px;
+    /* Set the width of the button */
+    height: 130px;
+    /* Set a fixed height */
+    background-image: url('boton_github/1.png');
+    /* Default background image */
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    /* Initial rounded corners */
+    transition: background-image 0.3s ease, border-radius 0.3s ease, transform 0.3s ease;
+    /* Smooth transitions */
+    cursor: pointer;
+}
+
+.button-email {
+    margin-top: 15px;
+    width: 100px;
+    /* Set the width of the button */
+    height: 90px;
+    /* Set a fixed height */
+    background-image: url('email_boton/1.png');
+    /* Default background image */
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    /* Initial rounded corners */
+    transition: background-image 0.3s ease, border-radius 0.3s ease, transform 0.3s ease;
+    /* Smooth transitions */
+    cursor: pointer;
+}
+
+.button-linkedin {
+    width: 100px;
+    /* Set the width of the button */
+    height: 80px;
+    /* Set a fixed height */
+    background-image: url('Linkedin_boton/1.png');
+    /* Default background image */
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    /* Initial rounded corners */
+    transition: background-image 0.3s ease, border-radius 0.3s ease, transform 0.3s ease;
+    /* Smooth transitions */
+    cursor: pointer;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.button-footer {
+    margin-top: 160px;
+    width: 130px;
+    /* Set the width of the button */
+    height: 130px;
+    /* Set a fixed height */
+    background-image: url('Boton_footer/1.png');
+    /* Default background image */
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    /* Center horizontally */
+    display: flex;
+    /* Use flexbox to center contents */
+    align-items: center;
+    /* Center vertically */
+    border-radius: 10px;
+    /* Rounded corners */
+    transition: background-image 0.3s ease, border-radius 0.3s ease, transform 0.3s ease;
+    /* Smooth transitions */
+    cursor: pointer;
+}
+
+
+/* Center the button inside a parent container */
+
+.parent-container {
+    display: flex;
+    justify-content: center;
+    /* Center the button horizontally */
+    align-items: center;
+    /* Center the button vertically */
+    height: 100vh;
+    /* Full height of the viewport */
+}
+
+.button-github:hover {
+    background-image: url('boton_github/2.png');
+    /* New background image on hover */
+    border-radius: 50%;
+    /* Change the shape on hover (circular in this case) */
+    transform: scale(1.1);
+}
+
+.button-linkedin:hover {
+    background-image: url('Linkedin_boton/2.png');
+    /* New background image on hover */
+    border-radius: 50%;
+    /* Change the shape on hover (circular in this case) */
+    transform: scale(1.1);
+}
+
+.button-email:hover {
+    background-image: url('email_boton/2.png');
+    /* New background image on hover */
+    border-radius: 50%;
+    /* Change the shape on hover (circular in this case) */
+    transform: scale(1.1);
+}
+
+.button-footer:hover {
+    background-image: url('Boton_footer/2.png');
+    /* New background image on hover */
+    border-radius: 50%;
+    /* Change the shape on hover (circular in this case) */
+    transform: scale(1.1);
+}
+
+.footer-buttoms {
+    margin-top: 130px;
+    display: flex;
+    /* Set flexbox for the parent */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Vertically center the items */
+}
+
+
+/*0c485b*/
+
+
+/*2F3E46*/
+
+
+/*072F39*/
+
+
+/*012042*/
+
+.about-me-section {
+    position: relative;
+    /* Add relative positioning to the section */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #012042;
+    flex-wrap: wrap;
+    /* Allow items to wrap */
+    /* Teal glow */
+    display: flex;
+    justify-content: space-between;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
+    /* Prevent content from overflowing */
+}
+
+.about-me-heading {
+    position: absolute;
+    /* Allow the heading to be placed freely */
+    top: 15%;
+    /* Move it vertically 50% of the section */
+    left: 65.5%;
+    /* Move it horizontally 50% of the section */
+    transform: translate(-50%, -50%);
+    /* Offset the heading by 50% of its own width and height */
+    margin: 0;
+    /* Remove any default margin */
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-size: 30px;
+    color: #92d4f5;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    letter-spacing: 3px;
+}
+
+.jose-pic {
+    position: absolute;
+    /* Allow the heading to be placed freely */
+    top: 19%;
+    /* Move it vertically 50% of the section */
+    left: 15%;
+    width: 212.5px;
+    /* Set the desired size */
+    height: 212.5px;
+    /* Set the desired size */
+    border-radius: 50%;
+    /* This makes it a circle */
+    background-image: url('jose/1.png');
+    transform: translate(-50%, -50%);
+    background-size: 160%;
+    /* Ensures the image covers the circle */
+    background-position: 55% 50%;
+    border: 3px solid #ffffff;
+}
+
+
+/*B2FFFF*/
+
+
+/*42A3B1*/
+
+
+/*D4AF37*/
+
+
+/*#6adfd3*/
+
+
+/**/
+
+.left-section {
+    float: right;
+    background-color: #92d4f5;
+    width: 31vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.vertical-line {
+    position: absolute;
+    left: 31%;
+    width: 1.5px;
+    height: 94%;
+    border-left: 1px solid #a6bcd3;
+    top: 3%;
+}
+
+.left-section-headings {
+    color: #001328;
+    font-size: 20px;
+    font-family: 'Noto Sans Georgian', sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    letter-spacing: 4px;
+}
+
+.left-section-headings-1 {
+    color: #001328;
+    font-size: 20px;
+    font-family: 'Noto Sans Georgian', sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    letter-spacing: 4px;
+}
+
+.p-about-me {
+    font-family: 'Open Sans', sans-serif;
+    /* Professional and clean font */
+    font-size: 20px;
+    line-height: 1.6;
+    /* Improves readability */
+    color: #0e3041;
+    /* Light Gray-White */
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.right-section {
+    width: 55%;
+    /* Allocate 55% width for the right side */
+    float: left;
+    /* Float left to position it beside the vertical line */
+    padding: 0;
+    /* Add some padding */
+    box-sizing: border-box;
+    /* Optional: Add a shadow for a modern look */
+}
+
+.rr-section {
+    width: 69vw;
+    height: 100vh;
+}
+
+.rr-section-p {
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    /* Professional and clean font */
+    font-size: 20px;
+    line-height: 1.6;
+    /* Improves readability */
+    color: #a6bcd3;
+    /* Light Gray-White */
+    margin: 0 auto;
+    text-align: justify;
+    max-width: 60%;
+}
+
+.rr-heading {
+    width: 69vw;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    /* Light Gray-White */
+    margin: 0 auto;
+    max-width: 60%;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Noto Sans Georgian', sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    letter-spacing: 3px;
+}
+
+.skills-section {
+    width: 69vw;
+    height: 51.5vh;
+    /* Ensures padding doesn't affect width */
+    column-count: 2;
+    padding-top: 10px;
+    /* Adjust as needed */
+    padding-bottom: 20px;
+    /* Adjust as needed */
+    column-rule: 1px solid #a6bcd3;
+    column-gap: 20px;
+    place-items: center;
+}
+
+.skills-heading {
+    /* Allows the background color to size according to the content */
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    /* Light Gray-White */
+    margin: 0 auto;
+    max-width: 100%;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Noto Sans Georgian', sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    letter-spacing: 4px;
+}
+
+.skills-images {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    width: 160px;
+    height: 80px;
+}
+
+.skills-images-1 {
+    position: absolute;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 35px;
+    width: 165px;
+    height: 82.5px;
+}
+
+.column-1 {
+    float: left;
+    padding-left: 300px;
+}
+
+.column-2 {
+    float: right;
+    padding-right: 300px;
+}
+
+.skills-heading-1 {
+    /* Allows the background color to size according to the content */
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    /* Light Gray-White */
+    margin: 0 auto;
+    max-width: 100%;
+    color: #a6bcd3;
+    font-size: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    letter-spacing: 4px;
+}
+
+.contact-button-about {
+    position: absolute;
+    font-size: 20px;
+    background-color: #92d4f5;
+    border-radius: 25px;
+    font-family: 'Open Sans', sans-serif;
+    transform: translate(-50%, -50%);
+    top: 90%;
+    left: 15.2%;
+    font-weight: bold;
+    border: none;
+    /* Removes the border */
+    display: block;
+    /* Allows centering with margin */
+    width: 250px;
+    height: 50px;
+    /* Ensures button size matches content */
+    margin: 0px 45;
+    padding-top: 0px;
+    /* Centers the button horizontally */
+    color: #001328;
+    letter-spacing: 3px;
+    transition: background-color 0.75s ease, transform 0.5s ease;
+}
+
+.contact-button-about:hover {
+    position: absolute;
+    font-size: 20px;
+    background-color: #001328;
+    border-radius: 20px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    transform: translate(-50%, -50%);
+    color: #92d4f5;
+    top: 90%;
+    left: 15.2%;
+    font-weight: bold;
+    border: none;
+    /* Removes the border */
+    display: block;
+    /* Allows centering with margin */
+    /* Ensures button size matches content */
+    margin: 0px 45;
+    padding-top: 0px;
+    /* Increases inner spacing */
+    width: 250px;
+    /* Sets a fixed width */
+    height: 50px;
+}
+
+.work-experience-section {
+    width: auto;
+    height: 150vh;
+    place-items: center;
+}
+
+.job-experience-heading {
+    /* Offset the heading by 50% of its own width and height */
+    margin-top: 2.54cm;
+    /* Remove any default margin */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    color: #92d4f5;
+    letter-spacing: 1px;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.job-experience-heading-2 {
+    /* Offset the heading by 50% of its own width and height */
+    /* Remove any default margin */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 34px;
+    color: #000000;
+    letter-spacing: 1px;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.job-experience-p {
+    color: #545454;
+    font-size: x-large;
+}
+
+.education-section {
+    display: flex;
+    position: relative;
+    /* Column line */
+    column-gap: 0px;
+    /* Space between columns */
+    width: 60%;
+    /* Full width of the container */
+    padding: 0px;
+}
+
+.column-1-education {
+    width: 38.5%;
+    padding: 5%;
+}
+
+.column-2-education {
+    width: 61.5%;
+    padding: 5%;
+}
+
+.vertical-line-education {
+    position: absolute;
+    top: 0;
+    left: 38.5%;
+    /* Position the vertical line between the two columns */
+    height: 100%;
+    width: 1.5px;
+    background-color: #a6bcd3;
+    top: 5%;
+    /* Line color */
+}
