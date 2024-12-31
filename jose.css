@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+Georgian:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+Georgian:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 html,
 body {
     margin: 0;
@@ -586,7 +583,7 @@ html {
 
 .work-experience-section {
     width: auto;
-    height: 150vh;
+    height: 200vh;
     place-items: center;
 }
 
@@ -594,10 +591,10 @@ html {
     /* Offset the heading by 50% of its own width and height */
     margin-top: 2.54cm;
     /* Remove any default margin */
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 26px;
     color: #92d4f5;
-    letter-spacing: 1px;
+    letter-spacing: 4px;
     justify-content: center;
     font-weight: bolder;
 }
@@ -605,8 +602,8 @@ html {
 .job-experience-heading-2 {
     /* Offset the heading by 50% of its own width and height */
     /* Remove any default margin */
-    font-family: 'Open Sans', sans-serif;
-    font-size: 34px;
+    font-family: 'Inter', sans-serif;
+    font-size: 42px;
     color: #000000;
     letter-spacing: 1px;
     justify-content: center;
@@ -614,8 +611,9 @@ html {
 }
 
 .job-experience-p {
-    color: #545454;
+    color: #828c95;
     font-size: x-large;
+    font-weight: lighter;
 }
 
 .education-section {
@@ -624,14 +622,18 @@ html {
     /* Column line */
     column-gap: 0px;
     /* Space between columns */
-    width: 60%;
+    width: 70%;
     /* Full width of the container */
     padding: 0px;
+    height: 80vh;
 }
 
 .column-1-education {
     width: 38.5%;
-    padding: 5%;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    padding-left: 8%;
+    padding-right: 5%;
 }
 
 .column-2-education {
@@ -646,7 +648,207 @@ html {
     /* Position the vertical line between the two columns */
     height: 100%;
     width: 1.5px;
-    background-color: #a6bcd3;
     top: 5%;
     /* Line color */
+    background-color: #a6bcd3;
+    padding-bottom: 0%;
+}
+
+.column-1-education-headings {
+    position: relative;
+    font-size: 26px;
+    font-style: 'Inter', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    justify-content: right;
+    text-align: right;
+    color: #010407;
+}
+
+.column-1-education-sub-headings {
+    position: relative;
+    padding-left: 7.85%;
+    letter-spacing: 1px;
+    font-size: larger;
+    font-style: 'Inter', sans-serif;
+    font-weight: lighter;
+    justify-content: right;
+    color: #828c95;
+    padding-bottom: 66.5%;
+    text-align: right;
+}
+
+.column-2-education-headings {
+    position: relative;
+    font-size: 26px;
+    font-style: 'Inter', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    justify-content: right;
+    padding-bottom: 0.42cm;
+    color: #f06000;
+}
+
+.column-2-education-sub-headings {
+    position: relative;
+    letter-spacing: 1px;
+    font-size: larger;
+    font-style: 'Inter', sans-serif;
+    font-weight: lighter;
+    justify-content: left;
+    color: #828c95;
+    padding-bottom: 12.1%;
+    line-height: 1.8;
+}
+
+
+/*3498db*/
+
+.circle {
+    width: 15px;
+    /* size of the circle */
+    height: 15px;
+    /* size of the circle */
+    background-color: #3498db;
+    /* color of the circle */
+    border-radius: 50%;
+    /* makes the shape a circle */
+    left: 38%;
+    position: absolute;
+    z-index: 10;
+    margin-top: -20px;
+}
+
+.column-1-work-headings {
+    position: relative;
+    font-size: 26px;
+    font-style: 'Inter', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    justify-content: right;
+    text-align: right;
+    margin-left: -20.85%;
+}
+
+
+/**/
+
+.column-1-work-sub-headings {
+    position: relative;
+    padding-left: 7.85%;
+    letter-spacing: 1px;
+    font-size: larger;
+    font-style: 'Inter', sans-serif;
+    font-weight: lighter;
+    justify-content: right;
+    color: #828c95;
+    padding-bottom: 71%;
+    text-align: right;
+}
+
+.column-2-work-headings {
+    position: relative;
+    font-size: 26px;
+    font-style: 'Inter', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    justify-content: right;
+    padding-bottom: 0.42cm;
+    color: #f06000;
+}
+
+.column-2-work-sub-headings {
+    position: relative;
+    letter-spacing: 1px;
+    font-size: larger;
+    font-style: 'Inter', sans-serif;
+    font-weight: lighter;
+    justify-content: left;
+    color: #828c95;
+    padding-bottom: 14.25%;
+    line-height: 1.8;
+}
+
+.work-section {
+    display: flex;
+    position: relative;
+    /* Column line */
+    column-gap: 0px;
+    /* Space between columns */
+    width: 70%;
+    /* Full width of the container */
+    padding: 0px;
+    height: 55vh;
+}
+
+.work-experience-heading {
+    /* Offset the heading by 50% of its own width and height */
+    margin-top: 2.54cm;
+    padding-bottom: 0.5cm;
+    /* Remove any default margin */
+    font-family: 'Inter', sans-serif;
+    font-size: 34px;
+    color: #92d4f5;
+    letter-spacing: 1px;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.education-experience-heading {
+    /* Offset the heading by 50% of its own width and height */
+    margin-top: 3cm;
+    /* Remove any default margin */
+    font-family: 'Inter', sans-serif;
+    font-size: 34px;
+    color: #92d4f5;
+    letter-spacing: 1px;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.project-section {
+    height: 100vh;
+    background-color: #001328;
+    align-items: center;
+    display: flow-root;
+}
+
+.projects-heading {
+    padding-top: 2.54cm;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 26px;
+    color: #92d4f5;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    letter-spacing: 5px;
+}
+
+.projects-heading-2 {
+    font-size: 42px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 3px;
+    text-shadow: 0.5px 0.5px 0.5px #d7dbde;
+}
+
+.gallery-section {
+    margin-top: 2.54cm;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    padding-top: 10%;
+    height: 60%;
+    width: 80%;
+}
+
+.image-projects {
+    height: 600px;
+    width: 450px;
+    padding: 60px;
 }
