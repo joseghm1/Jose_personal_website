@@ -233,6 +233,20 @@ h1 {
         color: #f0f0f0;
         text-align: center;
     }
+    .name-footer {
+        margin: top 0;
+        display: flex;
+        /* Set flexbox for the parent */
+        justify-content: center;
+        /* Center horizontally */
+        align-items: center;
+        /* Vertically center the items */
+        font-family: 'Inter', sans-serif;
+        /* 2px right, 2px down, blurred with a semi-transparent black color */
+        font-size: 26px;
+        color: #f0f0f0;
+        text-align: center;
+    }
 }
 
 .name-footer {
