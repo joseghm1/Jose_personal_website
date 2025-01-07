@@ -13,48 +13,131 @@
 
 <body>
 
+    <section class="shared-background">
+        <section class="sample-1">
+            <header class="header-home">
+                <nav class="nav-home">
+                    <ul>
+                        <a href="#Home" class="nav-link active">
+                            <li>HOME</li>
+                        </a>
+                        <a href="#about-me" class="nav-link">
+                            <li>ABOUT</li>
+                        </a>
+                        <a href="#Resume" class="nav-link">
+                            <li>RESUME</li>
+                        </a>
+                        <a href="#project" class="nav-link">
+                            <li>PROJECTS</li>
+                        </a>
+                        <a href="#activities" class="nav-link">
+                            <li>ACTIVITIES</li>
+                        </a>
+                        <a href="#statistics" class="nav-link">
+                            <li>STATISTICS</li>
+                        </a>
+                        <a href="#contact" class="nav-link">
+                            <li>CONTACTS</li>
+                        </a>
+                    </ul>
 
-    <!-- Home Tab section -->
-    <section class="section-1">
+                </nav>
+                <hr class="hr-home">
+            </header>
 
-        <header>
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Resume</li>
-                    <li>Projects</li>
-                    <li>Activities</li>
-                    <li>Statistics</li>
-                    <li>Contacts</li>
-                </ul>
-            </nav>
-            <hr>
-        </header>
-
-        <h1 class="name">Jose Hernandez</h1>
-        <h3 class="name-footer">AI Engineer | Computer Scientist | Founder</h3>
-        <h3 class="name-footer">background pc: Los Roques, Venezuela</h3>
-
-        <section class="contact-buttoms">
-            <a href="https://github.com/joseghm1">
-                <div class="button-github"></div>
-            </a>
-            <a href="https://www.linkedin.com/in/jose-hernandez-meza/">
-                <div class="button-linkedin"></div>
-            </a>
-            <a href="mailto:jose.hernandez.cs@outlook.com">
-                <div class="button-email"></div>
-            </a>
-        </section>
-
-        <section class="footer-buttoms">
-            <a href="#about-me">
-                <div class="button-footer"></div>
-            </a>
 
         </section>
+
+        <section class="sample-2">
+            <section class="Home-section" id="Home">
+                <h1 class="name"><br>Jose Hernandez</h1>
+                <h3 class="name-footer"><br>AI Engineer | Computer Scientist | Founder<br><br></h3>
+                <h3 class="name-footer">picture: Los Roques, Venezuela by Freepiks</h3>
+
+                <section class="contact-buttoms">
+                    <a href="https://github.com/joseghm1">
+                        <div class="button-github"></div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jose-hernandez-meza/">
+                        <div class="button-linkedin"></div>
+                    </a>
+                    <a href="mailto:jose.hernandez.cs@outlook.com">
+                        <div class="button-email"></div>
+                    </a>
+                </section>
+
+                <section class="footer-buttoms">
+                    <a href="#about-me">
+                        <div class="button-footer"></div>
+                    </a>
+
+                </section>
+            </section>
+        </section>
+
     </section>
+
+    <!-- Home Tab section 
+    <section class="section-1">
+        <div class="shared-background">
+            <header class="header-home">
+                <nav class="nav-home">
+                    <ul>
+                        <a href="#Home" class="nav-link active">
+                            <li>HOME</li>
+                        </a>
+                        <a href="#about-me" class="nav-link">
+                            <li>ABOUT</li>
+                        </a>
+                        <a href="#Resume" class="nav-link">
+                            <li>RESUME</li>
+                        </a>
+                        <a href="#project" class="nav-link">
+                            <li>PROJECTS</li>
+                        </a>
+                        <a href="#activities" class="nav-link">
+                            <li>ACTIVITIES</li>
+                        </a>
+                        <a href="#statistics" class="nav-link">
+                            <li>STATISTICS</li>
+                        </a>
+                        <a href="#contact" class="nav-link">
+                            <li>CONTACTS</li>
+                        </a>
+                    </ul>
+                </nav>
+                <hr class="hr-home">
+            </header>
+
+
+
+            <section class="Home-section" id="Home">
+                <h1 class="name"><br>Jose Hernandez</h1>
+                <h3 class="name-footer"><br>AI Engineer | Computer Scientist | Founder<br><br></h3>
+                <h3 class="name-footer">picture: Los Roques, Venezuela by Freepiks</h3>
+
+                <section class="contact-buttoms">
+                    <a href="https://github.com/joseghm1">
+                        <div class="button-github"></div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jose-hernandez-meza/">
+                        <div class="button-linkedin"></div>
+                    </a>
+                    <a href="mailto:jose.hernandez.cs@outlook.com">
+                        <div class="button-email"></div>
+                    </a>
+                </section>
+
+                <section class="footer-buttoms">
+                    <a href="#about-me">
+                        <div class="button-footer"></div>
+                    </a>
+
+                </section>
+            </section>
+        </div>
+    </section>
+-->
 
     <!-- About me section -->
     <section class="about-me-section" id="about-me">
@@ -84,7 +167,9 @@
             <br>
             <br>
             <br>
-            <button class="contact-button-about">Contact me</button>
+            <a href="#contact">
+                <button class="contact-button-about">Contact me</button>
+            </a>
 
             <div class="vertical-line">
                 <div class="right-section">
@@ -125,7 +210,7 @@
     </div>
     </div>
     </section>
-    <section class="work-experience-section">
+    <section class="work-experience-section" id="Resume">
         <h1 class="job-experience-heading">Resume</h1>
         <h1 class="job-experience-heading-2"><br>Here are my qualifications</h1>
         <p class="job-experience-p"><br>My professional experience and background</p>
@@ -198,19 +283,135 @@
 
     </section>
 
-    <section class="project-section">
+    <section class="project-section" id="project">
         <h1 class="projects-heading"> Projects
-            <h1 class="projects-heading-2"><br>Take a look at what I've made.</h1>
+            <h1 class="projects-heading-2"><br>Take a look at what I've made.<br><br></h1>
 
-            <section class="gallery-section"> </section>
+            <div class="gallery-section">
 
+                <a href="https://www.instagram.com/avazimport/" class="background-link">
+                    <div class="image-projects-1"></div>
+                </a>
+                <a href="https://github.com/joseghm1/Jose_personal_website">
+                    <div class="image-projects-2"></div>
+                </a>
 
-
-
-
+                <div class="image-projects-3"></div>
+                <br>
+                <div class="image-projects-4"></div>
+                <div class="image-projects-5"></div>
+                <div class="image-projects-6"></div>
+            </div>
     </section>
 
 
+    <section class="activities-section" id="activities">
+        <h1 class="activities-heading">Activities</h1>
+        <h1 class="activities-heading-2"><br>My roles throughout my undergraduate journey.</h1>
+        <p class="activities-paragraph">Overview of my extracurricular involvement.</p>
+
+        <h1 class="activities-heading-3">Student Member</h1>
+        <p class="activities-paragraph-2">Society of Hispanic Professional Engineer | June 2024 - Current</p>
+        <p class="activities-paragraph"><br>Attend conferences and meet STEM professionals.<br></p>
+        <p class="activities-paragraph">Learn from STEM outreach and mentorship activities.<br></p>
+        <p class="activities-paragraph">Follow technical competitions and leadership sessions.<br></p>
+
+        <h1 class="activities-heading-3">Student Member</h1>
+        <p class="activities-paragraph-2">Knight Hacks | June 2024 - Current</p>
+        <p class="activities-paragraph"><br>Participate in events to explore innovative tech solutions.<br></p>
+        <p class="activities-paragraph">Attend sessions to learn about new tools and technologies.<br></p>
+        <p class="activities-paragraph">Connect with fellow tech enthusiasts and professionals.<br></p>
+    </section>
+
+    <section class="statistics-section" id="statistics">
+        <h1 class="statistics-heading">Statistics</h1>
+        <h1 class="statistics-heading-2"><br>What the numbers say * </h1>
+
+        <section class="statistics-squares-section">
+
+
+            <div class="statistics-squares">
+                <h1 class="squares-heading"> 1000+</h1>
+                <p class="squares-paragraph">Hours of coding</p>
+            </div>
+
+            <div class="statistics-squares">
+                <h1 class="squares-heading"> 6+</h1>
+                <p class="squares-paragraph">Programming Languages</p>
+            </div>
+
+            <div class="statistics-squares">
+                <h1 class="squares-heading"> 3.68</h1>
+                <p class="squares-paragraph">GPA</p>
+            </div>
+
+            <div class="statistics-squares">
+                <h1 class="squares-heading"> 100+</h1>
+                <p class="squares-paragraph">Projects Completed</p>
+            </div>
+
+            <div class="statistics-squares">
+                <h1 class="squares-heading"> 1.5M+</h1>
+                <p class="squares-paragraph">Dollars in Sales</p>
+            </div>
+
+            <div class="statistics-squares">
+                <h1 class="squares-heading"> 10k+</h1>
+                <p class="squares-paragraph">Customer <br> Relationships</p>
+            </div>
+
+
+        </section>
+    </section>
+    <section class="contact-section" id="contact">
+        <h1 class="contact-heading">Contact<br><br></h1>
+        <h1 class="contact-heading-2">Looking forward to connecting with you<br></h1>
+        <p class="contact-paragraph">Let's work together!<br><br></p>
+        <section class="contact-sub-section">
+
+            <div class="contact-squares">
+                <img src="contact-section-icons/2.png" class="image-contact-icon">
+                <h1 class="contact-heading-3">Location<br></h1>
+                <p class="contact-paragraph-2">
+                    2924 Conner Ln<br> Kissimmee FL<br>34741, US
+                </p>
+            </div>
+
+            <div class="contact-squares">
+                <img src="contact-section-icons/1.png" class="image-contact-icon">
+                <h1 class="contact-heading-3">Email<br></h1>
+                <a class="link-email" href="mailto:jose.hernandez.cs@outlook.com">
+                    <p class="contact-paragraph-2">
+                        jose.hernandez.cs@outlook.com
+                    </p>
+                </a>
+
+
+            </div>
+
+            <div class="contact-squares">
+                <img src="contact-section-icons/5.png" class="image-contact-icon">
+                <h1 class="contact-heading-3">LinkedIn<br></h1>
+                <a class="link-email" href="www.linkedin.com/in/jose-hernandez-meza">
+                    <p class="contact-paragraph-2">
+                        <b>LinkedIn profile</b>
+                    </p>
+                </a>
+            </div>
+
+        </section>
+
+
+    </section>
+    <hr class="horizontal-line">
+    <section class="copyright-section">
+
+        <p class="copyright-paragraph">© Copyright 2025 Jose Hernandez Meza</p>
+    </section>
+
+    </section>
+
+    <script src="jose.js"></script>
 
 </body>
 
