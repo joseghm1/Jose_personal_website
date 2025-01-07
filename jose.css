@@ -228,7 +228,7 @@ h1 {
         padding-top: 165px;
         font-family: 'Inter', sans-serif;
         font-size: 85px;
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        /* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);*/
         /* 2px right, 2px down, blurred with a semi-transparent black color */
         color: #f0f0f0;
         text-align: center;
