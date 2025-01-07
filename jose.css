@@ -209,7 +209,6 @@ h1 {
     justify-content: center;
     /* Center horizontally */
     padding-top: 165px;
-    -webkit-text-stroke: 0.2px #0a0808;
     font-family: 'Inter', sans-serif;
     font-size: 100px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
@@ -227,7 +226,6 @@ h1 {
         justify-content: center;
         /* Center horizontally */
         padding-top: 165px;
-        -webkit-text-stroke: 0.2px #0a0808;
         font-family: 'Inter', sans-serif;
         font-size: 85px;
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
