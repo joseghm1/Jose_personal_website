@@ -37,20 +37,21 @@ body {
 
 .header-section {
     background-image: url('roques.png');
-    height: 5vh;
+    height: 5%;
 }
 
 .sample-1 {
-    width: 100vw;
-    height: 5vh;
+    width: 100%;
+    height: 5%;
 }
 
 .sample-2 {
-    width: 100vw;
-    height: 95vh;
+    width: 100%;
+    height: 95%;
 }
 
 .shared-background {
+    max-width: 100%;
     /* Keep the background fixed while scrolling */
     background-image: url('roques.png');
     background-size: cover;
@@ -60,24 +61,25 @@ body {
 
 .header-home {
     position: fixed;
-    width: 100vw;
+    min-width: 100%;
     z-index: 9999;
     transition: 0.1s ease-in-out;
+    min-height: fit-content;
 }
 
 .nav-home {
-    padding-top: 20px;
-    padding-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 20px;
     font-size: 20px;
     font-family: 'Inter', 'sans-serif';
     color: white;
     background-color: transparent;
     transition: opacity 0.15s ease, visibility 0.4s ease;
+    flex-wrap: wrap;
+    /* Allow items to wrap to a new line */
 }
 
 .nav-chill {
-    padding-top: 20px;
-    padding-bottom: 25px;
     font-size: 20px;
     font-family: 'Inter', 'sans-serif';
     color: white;
@@ -102,14 +104,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 55px;
+    gap: 1.5%;
     letter-spacing: 3px;
     font-size: 15px;
+    flex-wrap: wrap;
+    line-height: 15px;
+    line-height: 2;
 }
 
 .Home-section {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 
 .nav-link {
@@ -210,6 +215,26 @@ h1 {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     /* 2px right, 2px down, blurred with a semi-transparent black color */
     color: #f0f0f0;
+    text-align: center;
+}
+
+@media all and (max-width: 550px) {
+    .name {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        display: flex;
+        /* Set flexbox for the parent */
+        justify-content: center;
+        /* Center horizontally */
+        padding-top: 165px;
+        -webkit-text-stroke: 0.2px #0a0808;
+        font-family: 'Inter', sans-serif;
+        font-size: 85px;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        /* 2px right, 2px down, blurred with a semi-transparent black color */
+        color: #f0f0f0;
+        text-align: center;
+    }
 }
 
 .name-footer {
@@ -226,6 +251,7 @@ h1 {
     /* 2px right, 2px down, blurred with a semi-transparent black color */
     font-size: 26px;
     color: #f0f0f0;
+    text-align: center;
 }
 
 .name-pic-footer {
