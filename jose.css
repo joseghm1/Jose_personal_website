@@ -246,6 +246,12 @@ h1 {
         font-size: 26px;
         color: #f0f0f0;
         text-align: center;
+        max-width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: center;
+        flex-wrap: wrap;
+        line-height: 2;
     }
 }
 
@@ -256,10 +262,10 @@ h1 {
     justify-content: center;
     /* Center horizontally */
     align-items: center;
-    /* Vertically center the items */
-    -webkit-text-stroke: 0.2px #0a0808;
     font-family: 'Inter', sans-serif;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    /* Vertically center the items */
+    /*-webkit-text-stroke: 0.2px #0a0808;
     /* 2px right, 2px down, blurred with a semi-transparent black color */
     font-size: 26px;
     color: #f0f0f0;
