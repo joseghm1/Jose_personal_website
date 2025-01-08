@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const sectionOne = document.querySelector('.shared-background'); // Target the first section
     const hline = document.querySelector('.hr-home');
 
-    const disappearPoint = 220; // Number of pixels to scroll before hiding navbar
+    const disappearPoint = (sectionOne.offsetHeight * 0.20); // Number of pixels to scroll before hiding navbar
     const sectionOneEnd = sectionOne.offsetTop + sectionOne.offsetHeight; // End of the first section
 
     // Function to handle adding/removing the active class
