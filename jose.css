@@ -847,6 +847,8 @@ html {
     letter-spacing: 4px;
     justify-content: center;
     font-weight: bolder;
+    text-align: center;
+    align-items: center;
 }
 
 .job-experience-heading-2 {
@@ -2075,7 +2077,7 @@ padding-right: 100px;
             font-weight: bold;
             justify-content: right;
             text-align: right;
-            padding-left: 100px;
+            padding-left: 50px;
 
 
         }
@@ -2097,11 +2099,11 @@ padding-right: 100px;
             
             position: relative;
             font-size: 20px;
-            display: inline;
-            justify-content: left;
+            display: flex;
+            justify-content: center;
             /* Horizontal centering */
-            align-items: left;
-            text-align: left;
+            align-items: center;
+            text-align: center;
             font-style: 'Inter', sans-serif;
             letter-spacing: 1px;
             font-weight: bold;
