@@ -273,6 +273,16 @@ h1 {
         flex-wrap: wrap;
         line-height: 2;
     }
+    .footer-buttoms {
+        margin-top: 1%;
+        /*130px*/
+        display: flex;
+        /* Set flexbox for the parent */
+        justify-content: center;
+        /* Center horizontally */
+        align-items: center;
+        /* Vertically center the items */
+    }
 }
 
 .name-footer {
@@ -450,7 +460,7 @@ html {
 }
 
 .footer-buttoms {
-    margin-top: 2.5%;
+    margin-top: 5%;
     /*130px*/
     display: flex;
     /* Set flexbox for the parent */
