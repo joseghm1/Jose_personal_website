@@ -1506,9 +1506,9 @@ html {
         width: 225px;
         border-radius: 20px;
         background-color: #211f1d;
-        margin-left: 20px;
-        margin-right: 20px;
-                padding-left: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-left: 10px;
         
 
         padding-top: 90px;
@@ -2057,7 +2057,7 @@ padding-right: 100px;
             justify-content: center;
         }
         .work-squares-3 {
-            padding-top: 1.5%;
+            padding-top: 1%;
             justify-content: left;
             align-items: left;
             text-align: left;
@@ -2144,9 +2144,9 @@ padding-right: 100px;
         .circle-new {
             position: absolute;
             margin-top: 1.5%;
-            width: 25px;
+            width: 20px;
             /* size of the circle */
-            height: 25px;
+            height: 20px;
             /* size of the circle */
             background-color: #00f5d0;
             /* color of the circle */
