@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 hline.style.opacity = '1';
 
                             }
-                            if (this.window.scrollY > disappearPoint && this.window.scrollY < sectionOneEnd) {
+                            if (this.window.scrollY > 220 && this.window.scrollY < sectionOneEnd) {
                                 hline.style.opacity = '0';
 
                                 hline.style.height = '0px';
