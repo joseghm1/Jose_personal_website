@@ -1461,6 +1461,7 @@ html {
         align-items: center;
         justify-content: center;
         text-align: center;
+
     }
 
     .statistics-squares-section {
@@ -1472,16 +1473,27 @@ html {
         display: flex;
         /* Make the container a flexbox */
         flex-wrap: wrap;
+        margin-left: 0;
+        margin-right: 0;
+
     }
+
+    /*margin-left: 25px;
+        margin-right: 25px;
+                padding-left: 20px;
+
+        */
+
     .statistics-squares {
         height: 300px;
         width: 225px;
         border-radius: 20px;
         background-color: #211f1d;
-        margin-left: 25px;
-        margin-right: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
+                padding-left: 20px;
+        
 
-        padding-left: 20px;
         padding-top: 90px;
         transition: transform 0.5s ease-in-out;
         margin-top: 10px;
