@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function tHold(){
         let query = window.matchMedia("(max-width: 550px)");
         if(query.matches){
-         disappearPoint = 15; // Number of pixels to scroll before hiding navbar
+         disappearPoint = 50; // Number of pixels to scroll before hiding navbar
 
 
         }else{
