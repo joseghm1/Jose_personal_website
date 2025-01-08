@@ -330,7 +330,7 @@ h1 {
         margin-top: 1%;
     }
     .button-footer {
-        width: 130px;
+        width: 100vw;
         height: 100px;
         /* Set the width of the button */
         background-image: url('Boton_footer/1.png');
@@ -583,9 +583,10 @@ html {
     top: 19%;
     /* Move it vertically 50% of the section */
     left: 15%;
-    width: 212.5px;
     /* Set the desired size */
     height: 212.5px;
+    width: 212.5px;
+
     /* Set the desired size */
     border-radius: 50%;
     /* This makes it a circle */
@@ -751,7 +752,7 @@ html {
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 35px;
-    width: 165px;
+   width: 165px;
     height: 82.5px;
 }
 
@@ -793,7 +794,6 @@ html {
     /* Removes the border */
     display: block;
     /* Allows centering with margin */
-    width: 250px;
     height: 50px;
     /* Ensures button size matches content */
     margin: 0px 45;
@@ -802,6 +802,8 @@ html {
     color: #001328;
     letter-spacing: 3px;
     transition: background-color 0.75s ease, transform 0.5s ease;
+    width: 250px;
+
 }
 
 .contact-button-about:hover {
@@ -830,8 +832,8 @@ html {
 }
 
 .work-experience-section {
-    width: auto;
-    height: 205vh;
+    width: 100vw;
+    height: auto;
     place-items: center;
 }
 
@@ -856,12 +858,16 @@ html {
     letter-spacing: 1px;
     justify-content: center;
     font-weight: bolder;
+    text-align: center;
+
+
 }
 
 .job-experience-p {
     color: #828c95;
     font-size: x-large;
     font-weight: lighter;
+    text-align: center;
 }
 
 .education-section {
@@ -873,7 +879,7 @@ html {
     width: 70%;
     /* Full width of the container */
     padding: 0px;
-    height: 80vh;
+    height: auto;
 }
 
 .column-1-education {
@@ -894,7 +900,7 @@ html {
     top: 0;
     left: 38.5%;
     /* Position the vertical line between the two columns */
-    height: 100%;
+    height: 95%;
     width: 1.5px;
     top: 5%;
     /* Line color */
@@ -1054,7 +1060,7 @@ html {
     width: 70%;
     /* Full width of the container */
     padding: 0px;
-    height: 55vh;
+    height: auto;
 }
 
 .work-experience-heading {
@@ -1068,6 +1074,8 @@ html {
     letter-spacing: 1px;
     justify-content: center;
     font-weight: bolder;
+    margin-bottom: 1cm;
+    text-align: center;
 }
 
 .education-experience-heading {
@@ -1081,6 +1089,8 @@ html {
     justify-content: center;
     font-weight: bolder;
 }
+
+
 
 .project-section {
     height: 120vh;
@@ -1453,6 +1463,11 @@ html {
     height: 20vh;
 }
 
+.test-1 {
+    background-color: transparent;
+    margin-top: -2.5vh;
+    height: 10vh;
+}
 @media all and (max-width:1600px){
 
     .statistics-section {
@@ -1681,9 +1696,460 @@ html {
 }
 
 
-/* padding-left: 20px;
-    padding-top: 90px;
-        <hr class="horizontal-line">
 
+.work-section-new{
+height: auto;
+width: 100vw;
+justify-content: center;
+align-items: center;
+text-align: center;
+display: flex;
+padding-right: 100px;
+}
+
+.work-squares {
+    height: 300px;
+    width: 550px;
+    background-color: white;
+}
+.work-squares-2 {
+    display: flex;
+    height: 300px;
+    width: 100px;
+    background-color: white;
+    justify-content: center;
+}
+.work-squares-3 {
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    height: 300px;
+    width: 750px;
+    background-color: white;
+
+}
+
+.column-1-work-headings {
+    position: relative;
+    font-size: 26px;
+    font-style: 'Inter', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    justify-content: right;
+    text-align: right;
+    margin-left: -20.85%;
+}
+
+.column-1-work-sub-headings {
+    position: relative;
+    padding-left: 7.85%;
+    letter-spacing: 1px;
+    font-size: larger;
+    font-style: 'Inter', sans-serif;
+    font-weight: lighter;
+    justify-content: right;
+    color: #828c95;
+    padding-bottom: 71%;
+    text-align: right;
+}
+
+.vertical-line-new {
+
+    position: relative;
     
-    */
+    /* Position the vertical line between the two columns */
+    height: 100%;
+    width: 1.5px;
+    /* Line color */
+    background-color: #a6bcd3;
+}
+
+.circle-new {
+    position: absolute;
+    margin-top: 0.5%;
+
+    width: 15px;
+    /* size of the circle */
+    height: 15px;
+    /* size of the circle */
+    background-color: #00f5d0;
+    /* color of the circle */
+    border-radius: 50%;
+    z-index: 10;
+}
+
+@media all and (min-width: 900px) and (max-width: 1299px){
+
+    .work-section-new{
+        height: auto;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        padding-right: 100px;
+        }
+        
+        .work-squares {
+            height: 400px;
+            width: 550px;
+
+
+        }
+        .work-squares-2 {
+            display: flex;
+            height: 400px;
+            width: 100px;
+            background-color: white;
+            justify-content: center;
+        }
+        .work-squares-3 {
+            padding-top: 1.5%;
+            justify-content: left;
+            align-items: left;
+            text-align: left;
+            height: 400px;
+            width: 1100px;
+            background-color: white;
+            padding-left: 0;
+        
+        }
+        
+        .column-1-work-headings {
+            position: relative;
+            font-size: 26px;
+            font-style: 'Inter', sans-serif;
+            letter-spacing: 1px;
+            font-weight: bold;
+            justify-content: right;
+            text-align: right;
+            padding-left: 100px;
+
+
+        }
+        
+        .column-1-work-sub-headings {
+            position: relative;
+            padding-left: 7.85%;
+            letter-spacing: 1px;
+            font-size: larger;
+            font-style: 'Inter', sans-serif;
+            font-weight: lighter;
+            justify-content: right;
+            color: #828c95;
+            padding-bottom: 71%;
+            text-align: right;
+        }
+
+        .column-2-education-headings {
+            
+            position: relative;
+            font-size: 26px;
+            display: inline;
+            justify-content: left;
+            /* Horizontal centering */
+            align-items: left;
+            text-align: left;
+            font-style: 'Inter', sans-serif;
+            letter-spacing: 1px;
+            font-weight: bold;
+            color: #000000;
+            background-color: #36eee3;
+            padding-top: 0cm;
+            margin-bottom: 0.42cm;
+            border-radius: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 3px;
+            padding-top: 3px;
+        }
+        
+        .column-2-education-sub-headings {
+            position: relative;
+            letter-spacing: 1px;
+            font-size: larger;
+            font-style: 'Inter', sans-serif;
+            font-weight: lighter;
+            justify-content: left;
+            color: #828c95;
+            padding-bottom: 12.1%;
+            line-height: 1.8;
+            margin-top: 0.42cm;
+        }
+        
+        .vertical-line-new {
+        
+            position: relative;
+            
+            /* Position the vertical line between the two columns */
+            height: 100%;
+            width: 1.5px;
+            /* Line color */
+            background-color: #a6bcd3;
+        }
+        
+        .circle-new {
+            position: absolute;
+            margin-top: 1.5%;
+            width: 25px;
+            /* size of the circle */
+            height: 25px;
+            /* size of the circle */
+            background-color: #00f5d0;
+            /* color of the circle */
+            border-radius: 50%;
+            z-index: 10;
+        }
+
+}
+
+
+@media all and (max-width: 899px){
+
+    .work-section-new{
+        height: auto;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        }
+        
+        .work-squares {
+            height: 400px;
+            width: 550px;
+
+
+        }
+        .work-squares-2 {
+            display: flex;
+            height: 400px;
+            width: 100px;
+            background-color: white;
+            justify-content: center;
+        }
+        .work-squares-3 {
+            padding-top: 1.5%;
+            justify-content: left;
+            align-items: left;
+            text-align: left;
+            height: 400px;
+            width: 750px;
+            background-color: white;
+        
+        }
+        
+        .column-1-work-headings {
+            position: relative;
+            font-size: 22px;
+            font-style: 'Inter', sans-serif;
+            letter-spacing: 1px;
+            font-weight: bold;
+            justify-content: right;
+            text-align: right;
+            padding-left: 100px;
+
+
+        }
+        
+        .column-1-work-sub-headings {
+            position: relative;
+            padding-left: 7.85%;
+            letter-spacing: 1px;
+            font-size: 16px;
+            font-style: 'Inter', sans-serif;
+            font-weight: lighter;
+            justify-content: right;
+            color: #828c95;
+            padding-bottom: 71%;
+            text-align: right;
+        }
+
+        .column-2-education-headings {
+            
+            position: relative;
+            font-size: 22px;
+            display: inline;
+            justify-content: left;
+            /* Horizontal centering */
+            align-items: left;
+            text-align: left;
+            font-style: 'Inter', sans-serif;
+            letter-spacing: 1px;
+            font-weight: bold;
+            color: #000000;
+            background-color: #36eee3;
+            padding-top: 0cm;
+            margin-bottom: 0.42cm;
+            border-radius: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 3px;
+            padding-top: 3px;
+        }
+        
+        .column-2-education-sub-headings {
+            position: relative;
+            letter-spacing: 1px;
+            font-size: 16px;
+            font-style: 'Inter', sans-serif;
+            font-weight: lighter;
+            justify-content: left;
+            color: #828c95;
+            padding-bottom: 12.1%;
+            line-height: 1.8;
+            margin-top: 0.42cm;
+        }
+        
+        .vertical-line-new {
+        
+            position: relative;
+            
+            /* Position the vertical line between the two columns */
+            height: 100%;
+            width: 1.5px;
+            /* Line color */
+            background-color: #a6bcd3;
+        }
+        
+        .circle-new {
+            position: absolute;
+            margin-top: 1.5%;
+            width: 25px;
+            /* size of the circle */
+            height: 25px;
+            /* size of the circle */
+            background-color: #00f5d0;
+            /* color of the circle */
+            border-radius: 50%;
+            z-index: 10;
+        }
+
+}
+
+
+@media all and (max-width: 650px){
+
+    .work-section-new{
+        height: auto;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        padding-right: 0%;
+        }
+        
+        .work-squares {
+            height: 450px;
+            width: 650px;
+            padding-right: 10px;
+
+
+        }
+        .work-squares-2 {
+            display: flex;
+            height: 450px;
+            width: 100px;
+            background-color: white;
+            justify-content: center;
+        }
+        .work-squares-3 {
+            padding-top: 1.5%;
+            justify-content: left;
+            align-items: left;
+            text-align: left;
+            height: 450px;
+            width: 750px;
+            padding-right: 20px;
+            padding-left: 20px;
+            
+        
+        }
+        
+        .column-1-work-headings {
+            position: relative;
+            font-size: 20px;
+            font-style: 'Inter', sans-serif;
+            letter-spacing: 1px;
+            font-weight: bold;
+            justify-content: right;
+            text-align: right;
+            padding-left: 100px;
+
+
+        }
+        
+        .column-1-work-sub-headings {
+            position: relative;
+            padding-left: 7.85%;
+            letter-spacing: 1px;
+            font-size: 14px;
+            font-style: 'Inter', sans-serif;
+            font-weight: lighter;
+            justify-content: right;
+            color: #828c95;
+            padding-bottom: 71%;
+            text-align: right;
+        }
+
+        .column-2-education-headings {
+            
+            position: relative;
+            font-size: 20px;
+            display: inline;
+            justify-content: left;
+            /* Horizontal centering */
+            align-items: left;
+            text-align: left;
+            font-style: 'Inter', sans-serif;
+            letter-spacing: 1px;
+            font-weight: bold;
+            color: #000000;
+            background-color: #36eee3;
+            padding-top: 0cm;
+            margin-bottom: 0.42cm;
+            border-radius: 10px;
+            padding-left: 10px;
+            padding-bottom: 3px;
+            padding-top: 3px;
+        }
+        
+        .column-2-education-sub-headings {
+            position: relative;
+            letter-spacing: 1px;
+            font-size: 14px;
+            font-style: 'Inter', sans-serif;
+            font-weight: lighter;
+            justify-content: left;
+            color: #828c95;
+            padding-bottom: 12.1%;
+            line-height: 1.8;
+            margin-top: 0.42cm;
+        }
+        
+        .vertical-line-new {
+        
+            position: relative;
+            
+            /* Position the vertical line between the two columns */
+            height: 100%;
+            width: 1.5px;
+            /* Line color */
+            background-color: #a6bcd3;
+        }
+        
+        .circle-new {
+            position: absolute;
+            margin-top: 1.5%;
+            width: 25px;
+            /* size of the circle */
+            height: 25px;
+            /* size of the circle */
+            background-color: #00f5d0;
+            /* color of the circle */
+            border-radius: 50%;
+            z-index: 10;
+        }
+
+}
