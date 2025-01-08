@@ -7,8 +7,22 @@ document.addEventListener('DOMContentLoaded', () => {
     const sectionOne = document.querySelector('.shared-background'); // Target the first section
     const hline = document.querySelector('.hr-home');
 
-    const disappearPoint = (sectionOne.offsetHeight * 0.20); // Number of pixels to scroll before hiding navbar
     const sectionOneEnd = sectionOne.offsetTop + sectionOne.offsetHeight; // End of the first section
+    let disappearPoint = 220;
+    function tHold(){
+        let query = window.matchMedia("(max-width: 550px)");
+        if(query.matches){
+         disappearPoint = 15; // Number of pixels to scroll before hiding navbar
+
+
+        }else{
+            disappearPoint = 220; // Number of pixels to scroll before hiding navbar
+
+        }
+    }
+    tHold();
+
+   
 
     // Function to handle adding/removing the active class
     function setActiveLink() {
@@ -23,7 +37,6 @@ document.addEventListener('DOMContentLoaded', () => {
             if (scrollY >= sectionTop - 60) {
                 currentSection = section;
             }
-
             if (currentSection) {
                 switch (currentSection.id) {
                     case 'Home':
@@ -52,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 hline.style.opacity = '1';
 
                             }
-                            if (this.window.scrollY > 220 && this.window.scrollY < sectionOneEnd) {
+                            if (this.window.scrollY > disappearPoint && this.window.scrollY < sectionOneEnd) {
                                 hline.style.opacity = '0';
 
                                 hline.style.height = '0px';
