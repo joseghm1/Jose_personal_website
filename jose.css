@@ -1529,7 +1529,7 @@ html {
 */
 
 .contact-squares {
-    height: 300px;
+    height: auto;
     width: 400px;
     border-radius: 20px;
     margin-left: 40px;
@@ -1664,7 +1664,7 @@ html {
        
     }
     .contact-squares {
-        height: 300px;
+        height: auto;
         width: 400px;
         border-radius: 20px;
         margin-left: 200px;
