@@ -1607,36 +1607,43 @@ html {
 }
 
 .image-contact-icon-1 {
-    height: 100px;
+    height: 130px;
     width: 100px;
     vertical-align: middle;
     
 
     background-image: url('contact-section-icons/2.png');
     background-size: cover;
+    background-position: center;
+    margin-left: 5px;
+
     
 
 
 }
 
 .image-contact-icon-2 {
-    height: 100px;
+    height: 130px;
     width: 100px;
     vertical-align: middle;
     background-image: url('contact-section-icons/1.png');
     background-size: cover;
+    background-size: cover;
+    background-position: center;
 
 }
 
 .image-contact-icon-3 {
     
-    height: 100px;
+    height: 130px;
     width: 100px;
     vertical-align: middle;
     
 
     background-image: url('contact-section-icons/5.png');
     background-size: cover;
+    background-size: cover;
+    background-position: center;
 
 }
 
