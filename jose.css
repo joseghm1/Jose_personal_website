@@ -1607,7 +1607,7 @@ html {
 }
 
 .image-contact-icon-1 {
-    height: 130px;
+    height: 100px;
     width: 100px;
     vertical-align: middle;
     
@@ -1620,20 +1620,19 @@ html {
 }
 
 .image-contact-icon-2 {
-    height: 130px;
+    height: 100px;
     width: 100px;
     vertical-align: middle;
     background-image: url('Contact-section-icons/1.png');
     background-size: cover;
     background-size: cover;
     background-position: center;
-    background-color: #00f5d0;
 
 }
 
 .image-contact-icon-3 {
     
-    height: 130px;
+    height: 100px;
     width: 100px;
     vertical-align: middle;
     
