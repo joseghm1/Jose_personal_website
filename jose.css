@@ -1529,11 +1529,12 @@ html {
 */
 
 .contact-squares {
-    height: auto;
+    height: 200px;
     width: 400px;
     border-radius: 20px;
     margin-left: 40px;
     margin-right: 40px;
+    margin-bottom: 10px;
 
 
 }
@@ -1664,13 +1665,12 @@ html {
        
     }
     .contact-squares {
-        height: auto;
+        height: 300px;
         width: 400px;
         border-radius: 20px;
         margin-left: 200px;
         margin-right: 200px;
-
-        padding-bottom: 5%;
+        margin-bottom: 10px;
     }
 
     .contact-sub-square{
