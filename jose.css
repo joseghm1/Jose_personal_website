@@ -1594,12 +1594,50 @@ html {
     border-radius: 20px;
     margin-left: 50px;
     margin-right: 50px;
+
+
+}
+.contact-sub-square{
+    width: 450px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
 }
 
-.image-contact-icon {
+.image-contact-icon-1 {
     height: 100px;
     width: 100px;
     vertical-align: middle;
+    
+
+    background-image: url('contact-section-icons/2.png');
+    background-size: cover;
+    
+
+
+}
+
+.image-contact-icon-2 {
+    height: 100px;
+    width: 100px;
+    vertical-align: middle;
+    background-image: url('contact-section-icons/1.png');
+    background-size: cover;
+
+}
+
+.image-contact-icon-3 {
+    
+    height: 100px;
+    width: 100px;
+    vertical-align: middle;
+    
+
+    background-image: url('contact-section-icons/5.png');
+    background-size: cover;
+
 }
 
 .contact-paragraph-2 {
@@ -1628,7 +1666,6 @@ html {
     height: 8vh;
     width: 100%;
     background-color: #001328;
-    ;
     display: flex;
     font-weight: normal;
     justify-content: center;
@@ -1662,9 +1699,7 @@ html {
         background-color: #001326;
         justify-content: center;
         text-align: center;
-        align-items: center;
-        
-        
+        align-items: center;            
     }
     .copyright-section {
         height: auto;
@@ -1693,6 +1728,15 @@ html {
         margin-right: 200px;
 
         padding-bottom: 5%;
+    }
+
+    .contact-sub-square{
+        width: 400px;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
     }
     
 }
