@@ -308,6 +308,9 @@ h1 {
         flex-wrap: wrap;
         line-height: 2;
         margin-bottom: 0;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        letter-spacing: 2px;
+
     }
     .contact-buttoms {
         margin-top: 5px;
@@ -560,16 +563,14 @@ html {
 }
 
 .about-me-heading {
+/*
     position: absolute;
-    /* Allow the heading to be placed freely */
     top: 15%;
-    /* Move it vertically 50% of the section */
     left: 65.5%;
-    /* Move it horizontally 50% of the section */
     transform: translate(-50%, -50%);
-    /* Offset the heading by 50% of its own width and height */
-    margin: 0;
-    /* Remove any default margin */
+    margin:0;
+*/
+
     font-family: 'Noto Sans Georgian', sans-serif;
     font-size: 30px;
     color: #36eee3;
@@ -578,24 +579,20 @@ html {
 }
 
 .jose-pic {
+/*
     position: absolute;
-    /* Allow the heading to be placed freely */
     top: 19%;
-    /* Move it vertically 50% of the section */
     left: 15%;
-    /* Set the desired size */
     height: 212.5px;
     width: 212.5px;
 
-    /* Set the desired size */
     border-radius: 50%;
-    /* This makes it a circle */
     background-image: url('jose/1.png');
     transform: translate(-50%, -50%);
     background-size: 160%;
-    /* Ensures the image covers the circle */
     background-position: 55% 50%;
     border: 3px solid #001328;
+    */
 }
 
 
@@ -642,21 +639,21 @@ html {
 .left-section-headings {
     color: #001328;
     font-size: 20px;
-    font-family: 'Noto Sans Georgian', sans-serif;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-family: 'Inter', sans-serif;
     letter-spacing: 4px;
 }
+
+
 
 .left-section-headings-1 {
     color: #001328;
     font-size: 20px;
-    font-family: 'Noto Sans Georgian', sans-serif;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-family: 'Inter', sans-serif;
     letter-spacing: 4px;
 }
 
 .p-about-me {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     /* Professional and clean font */
     font-size: 20px;
     line-height: 1.6;
@@ -683,19 +680,7 @@ html {
     height: 100vh;
 }
 
-.rr-section-p {
-    justify-content: center;
-    font-family: 'Open Sans', sans-serif;
-    /* Professional and clean font */
-    font-size: 20px;
-    line-height: 1.6;
-    /* Improves readability */
-    color: #a6bcd3;
-    /* Light Gray-White */
-    margin: 0 auto;
-    text-align: justify;
-    max-width: 60%;
-}
+
 
 .rr-heading {
     width: 69vw;
@@ -706,7 +691,7 @@ html {
     max-width: 60%;
     color: #ffffff;
     font-size: 24px;
-    font-family: 'Noto Sans Georgian', sans-serif;
+    font-family: 'Inter', sans-serif;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     letter-spacing: 3px;
 }
@@ -780,56 +765,7 @@ html {
     letter-spacing: 4px;
 }
 
-.contact-button-about {
-    position: absolute;
-    font-size: 20px;
-    background-color: #36eee3;
-    border-radius: 25px;
-    font-family: 'Open Sans', sans-serif;
-    transform: translate(-50%, -50%);
-    top: 90%;
-    left: 15.2%;
-    font-weight: bold;
-    border: none;
-    /* Removes the border */
-    display: block;
-    /* Allows centering with margin */
-    height: 50px;
-    /* Ensures button size matches content */
-    margin: 0px 45;
-    padding-top: 0px;
-    /* Centers the button horizontally */
-    color: #001328;
-    letter-spacing: 3px;
-    transition: background-color 0.75s ease, transform 0.5s ease;
-    width: 250px;
 
-}
-
-.contact-button-about:hover {
-    position: absolute;
-    font-size: 20px;
-    background-color: #001328;
-    border-radius: 20px;
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: 3px;
-    transform: translate(-50%, -50%);
-    color: #36eee3;
-    top: 90%;
-    left: 15.2%;
-    font-weight: bold;
-    border: none;
-    /* Removes the border */
-    display: block;
-    /* Allows centering with margin */
-    /* Ensures button size matches content */
-    margin: 0px 45;
-    padding-top: 0px;
-    /* Increases inner spacing */
-    width: 250px;
-    /* Sets a fixed width */
-    height: 50px;
-}
 
 .work-experience-section {
     width: 100vw;
@@ -2200,5 +2136,491 @@ padding-right: 100px;
             border-radius: 50%;
             z-index: 10;
         }
+
+}
+/*1800*/
+
+.about-me-section {
+    /* Add relative positioning to the section */
+   
+    height: auto;
+    width: 100vw;
+    background-color: #001328;
+}
+
+.about-me-sub-section {
+    /* Add relative positioning to the section */
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 100vw;
+    background-color: #36eee3;
+    /* Allow items to wrap */
+    /* Teal glow */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+}
+
+.about-me-heading-2 {
+    font-size: 42px;
+    color: #001328;
+    letter-spacing: 1px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 3px;
+}
+
+.about-me-heading {
+    padding-top: 2cm;
+    width: 100vw;
+    font-family: 'Inter', sans-serif;
+    font-size: 26px;
+    color: black;
+    letter-spacing: 5px;
+
+}
+
+
+
+.left-section-headings {
+    color: #001328;
+    font-size: 28px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 4px;
+    text-align: left;
+    margin: 10px;
+
+}
+
+.left-section-headings-1 {
+    color: #001328;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 4px;
+
+}
+
+.right-section-headings {
+    color: #36eee3;
+    font-size: 28px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 4px;
+    text-align: center;
+    margin: 10px;
+}
+
+.right-section-headings-1 {
+    color: #36eee3;
+    font-size: 22px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.p-about-me {
+    font-family: 'Open Sans', sans-serif;
+    /* Professional and clean font */
+    font-size: 20px;
+    line-height: 1.6;
+    /* Improves readability */
+    color: #0e3041;
+    /* Light Gray-White */
+    margin: 10px 0;
+    text-align: justify;
+    visibility: hidden;
+
+}
+
+
+
+.rr-section-p {
+    justify-content: left;
+    font-family: 'Inter', sans-serif;
+    /* Professional and clean font */
+    font-size: 24px;
+    line-height: 1.6;
+    /* Improves readability */
+    color: black;
+    /* Light Gray-White */
+    text-align: left;
+    margin: 10px;
+    letter-spacing: 1px;
+}
+
+.rr-section-p-1 {
+    justify-content: left;
+    font-family: 'Inter', sans-serif;
+    /* Professional and clean font */
+    font-size: 24px;
+    line-height: 1.6;
+    /* Improves readability */
+    color: black;
+    /* Light Gray-White */
+    text-align: left;
+    margin: 10px;
+    max-width: 60%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.jose-pic {
+    /*
+    top: 19%;
+    left: 15%;
+    transform: translate(-50%, -50%);*/
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    background-image: url('jose/2.png');
+
+    background-size: 200%;
+    background-position: 40% 15.5%;
+    border: 5px solid black;
+    line-height: 170px;
+    justify-content: center;
+    vertical-align: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: -40px;
+}
+
+.about-me-sub-section-1 {
+    /* Add relative positioning to the section */
+    margin-top: 2cm;
+    padding: 0;
+    height: auto;
+    background-color: #36eee3;
+    /* Allow items to wrap */
+    /* Teal glow */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+   text-align: center;
+   border-radius: 50px;
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 1320px;
+   min-width: 500px;
+  max-width: 1100px;
+  transition: transform 0.5s ease;
+
+
+}
+.about-me-sub-section-1:hover {
+    transform: scale(1.01);
+
+}
+
+.about-me-sub-section-2 {
+    /* Add relative positioning to the section */
+    padding: 0;
+    height: auto;
+    width: 100vw;
+    background-color: #36eee3;
+    /* Allow items to wrap */
+    /* Teal glow */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+   text-align: center;
+   border-radius: 50px;
+   display: flex;
+   flex-wrap: wrap;
+  
+
+}
+.left-section-square{
+    border-radius: 20px;
+    background-color: #211f1d;
+    width: 30%;
+    height: auto;
+    transition: transform 0.5s ease;
+    min-width: 500px;
+    margin: 0.5%;
+    max-width: 530px;
+
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 1280px;
+
+
+}
+
+.left-section-square:hover{
+    transform: scale(1.01);
+}
+
+.right-section-square{
+    border-radius: 20px;
+    background-color: #fffffe;
+    width: 30%;
+    height: auto;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0.5%;
+    margin-right: 1.25%;
+    transition: transform 0.5s ease;
+   min-width: 500px;
+   flex-wrap: wrap;
+   min-height: 1280px;
+   max-width: 530px;
+
+
+
+}
+.image-container{
+    width:auto;
+    height: auto;
+justify-content: center;
+flex-wrap: wrap;
+display: flex;
+
+}
+.right-section-square:hover{
+    transform: scale(1.01);
+}
+.image-squares-right-headings{
+
+    width: 240px;
+    height: 50px;
+    text-align: center;
+
+}
+
+.image-squares-right{
+    width: 240px;
+    height: 200px;
+    background-size: 100%;
+    justify-content: center;
+    background-image: url('Progreso_skills/1.png');
+    background-position: center;
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+.image-squares-right-2{
+    width: 240px;
+    height: 200px;
+    background-size: 100%;
+    justify-content: center;
+    background-image: url('Progreso_skills/2.png');
+    background-position: center;
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+
+}
+.image-squares-right-3{
+    width: 240px;
+    height: 200px;
+    background-size: 100%;
+    justify-content: center;
+    background-image: url('Progreso_skills/2.png');
+    background-position: center;
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+
+}
+.image-squares-right-4{
+    width: 240px;
+    height: 200px;
+    background-size: 100%;
+    justify-content: center;
+    background-image: url('Progreso_skills/4.png');
+    background-position: center;
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+
+}
+.image-squares-right-5{
+    width: 240px;
+    height: 200px;
+    background-size: 100%;
+    justify-content: center;
+    background-image: url('Progreso_skills/1.png');
+    background-position: center;
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+
+
+}
+
+.image-rectangle-right-subcontainer{
+    margin-top: 30px;
+    width: 100%;
+    height: 70px;
+   margin-left: 3px;
+   margin-right: 3px;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.image-rectangle-right-headings{
+
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    text-align: center;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.image-rectangle-right{
+    margin-top: 50px;
+    width: 490px;
+    height: 40px;
+    background-size: 100%;
+    justify-content: center;
+    background-image: url('Progreso_skills/6.png');
+    background-position: center;
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.image-rectangle-right-2{
+    margin-top: 50px;
+    width: 490px;
+    height: 40px;
+    background-size: 100%;
+    justify-content: center;
+    background-image: url('Progreso_skills/7.png');
+    background-position: center;
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.image-rectangle-right-subcontainer{
+    margin-top: 20px;
+    width: 100%;
+    height: 135px;
+   margin-left: 3px;
+   margin-right: 3px;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+
+.contact-button-about {
+    margin-top: 80px;
+    font-size: 22px;
+
+    background-color: #36eee3;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    border: none;
+   
+    height: 70px;
+    margin: 0px 45;
+    padding-top: 0px;
+    color: #000000;
+    letter-spacing: 3px;
+    transition: background-color 0.75s ease, transform 0.5s ease;
+    width: 400px;
+    border-radius: 10px;
+
+}
+
+
+.contact-button-about:hover {
+    font-size: 22px;
+    background-color: #08a19e;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 3px;
+    color: #fffffe;
+    border-radius: 10px;
+  
+    font-weight: bold;
+   border: none;
+ 
+    width: 400px;
+    /* Sets a fixed width */
+    height: 70px;
+
+}
+
+
+@media all and (max-width: 750px){
+
+    .jose-pic {
+        /*
+        top: 19%;
+        left: 15%;
+        transform: translate(-50%, -50%);*/
+        height: 170px;
+        width: 170px;
+        border-radius: 50%;
+        background-image: url('jose/2.png');
+    
+        background-size: 200%;
+        background-position: 40% 15.5%;
+        border: 5px solid black;
+        line-height: 170px;
+        justify-content: center;
+        vertical-align: center;
+        text-align: center;
+        align-items: center;
+        margin-bottom: -40px;
+        display: column;
+        flex-wrap: wrap;
+    }
+    
+    .about-me-sub-section-1 {
+        /* Add relative positioning to the section */
+        margin-top: 2cm;
+        height: auto;
+        background-color: #36eee3;
+        /* Allow items to wrap */
+        /* Teal glow */
+        justify-content: center;
+        /* Center horizontally */
+        align-items: center;
+       text-align: center;
+       border-radius: 50px;
+       flex-wrap: wrap;
+       max-width: 1320px;
+       min-width: 500px;
+      max-width: 1100px;
+      transition: transform 0.5s ease;
+      display: inline-flex;
+      padding-left: 10%;
+      padding-right: 10%;
+      padding-top: 5%;
+
+    
+    
+    }
+
+    .rr-section-p-1 {
+        justify-content: left;
+        font-family: 'Inter', sans-serif;
+        /* Professional and clean font */
+        font-size: 24px;
+        line-height: 1.6;
+        /* Improves readability */
+        color: black;
+        /* Light Gray-White */
+        text-align: center;
+        margin: 10px;
+        max-width: 80%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    
+    }
 
 }
