@@ -51,6 +51,7 @@ body {
 .sample-2 {
     width: 100%;
     height: 95%;
+    
 }
 
 .shared-background {
@@ -60,6 +61,7 @@ body {
     /* Make the image cover the entire section */
     background-position: center;
     background-size: cover;
+    background-color: #000000;
 }
 
 .header-home {
@@ -116,8 +118,14 @@ body {
 }
 
 .Home-section {
+    display: flex;
+    flex-direction: column;
     height: 100%;
     width: 100%;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+
 }
 
 .nav-link {
@@ -166,6 +174,77 @@ nav-home a.active {
     background-color: white;
 }
 
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: top 0;
+    /* Set flexbox for the parent */
+    /* Center horizontally */
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    /* Vertically center the items */
+    /* -webkit-text-stroke: 0.2px #0a0808;
+    /* 2px right, 2px down, blurred with a semi-transparent black color */
+    font-size: 26px;
+    color: #f0f0f0;
+    text-align: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.footer-margin{
+    margin-top: 10px;
+}
+
+.name {
+    margin-top: -100px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    /* Set flexbox for the parent */
+    justify-content: center;
+    /* Center horizontally */
+    /* padding-top: 105px; */
+    /*165px*/
+    font-family: 'Inter', sans-serif;
+    font-size: 80px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    /* 2px right, 2px down, blurred with a semi-transparent black color */
+    color: #f0f0f0;
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    .footer-container{
+
+    /* Set flexbox for the parent */
+    /* Center horizontally */
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    /* Vertically center the items */
+    /* -webkit-text-stroke: 0.2px #0a0808;
+    /* 2px right, 2px down, blurred with a semi-transparent black color */
+    font-size: 16px;
+    color: #f0f0f0;
+    text-align: center;
+    letter-spacing: 0.025rem;
+    font-weight: 200;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.name{
+    font-size: 48px;
+}
+}
+
+.span-style{
+    margin: 0 20px;
+}
 
 /*0d223b*/
 
@@ -204,26 +283,9 @@ h1 {
     padding: 0;
 }
 
-.name {
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    display: flex;
-    /* Set flexbox for the parent */
-    justify-content: center;
-    /* Center horizontally */
-    padding-top: 105px;
-    /*165px*/
-    font-family: 'Inter', sans-serif;
-    font-size: 90px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    /* 2px right, 2px down, blurred with a semi-transparent black color */
-    color: #f0f0f0;
-    text-align: center;
-}
+
 .footer-buttoms {
     width: 100%;
-    height:  100px;
-    margin-top: 4%;
     /*130px*/
     display: flex;
     /* Set flexbox for the parent */
@@ -231,13 +293,15 @@ h1 {
     /* Center horizontally */
     align-items: center;
     /* Vertically center the items */
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 3%;
+    
 }
 
 @media all and (max-width: 750px) {
     .footer-buttoms {
         width: 100%;
-        height:  100px;
-        margin-top: 35%;
         /*130px*/
         display: flex;
         /* Set flexbox for the parent */
@@ -250,7 +314,7 @@ h1 {
 
 @media all and (max-width: 550px) {
     .Home-section {
-        height: 100vh;
+        height: 100%;
         width: 100%;
     }
     .sample-1 {
@@ -276,45 +340,8 @@ h1 {
         /* Vertically align content */
         justify-content: center;
     }
-    .name {
-        margin-bottom: 0px;
-        padding-bottom: 0px;
-        display: flex;
-        /* Set flexbox for the parent */
-        justify-content: center;
-        /* Center horizontally */
-        padding-top: 10%;
-        font-family: 'Inter', sans-serif;
-        font-size: 85px;
-        /* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);*/
-        /* 2px right, 2px down, blurred with a semi-transparent black color */
-        color: #f0f0f0;
-        text-align: center;
-    }
-    .name-footer {
-        margin: top 0;
-        display: flex;
-        /* Set flexbox for the parent */
-        justify-content: center;
-        /* Center horizontally */
-        align-items: center;
-        /* Vertically center the items */
-        font-family: 'Inter', sans-serif;
-        /* 2px right, 2px down, blurred with a semi-transparent black color */
-        font-size: 26px;
-        color: #f0f0f0;
-        text-align: center;
-        max-width: 100%;
-        padding-left: 15%;
-        padding-right: 15%;
-        text-align: center;
-        flex-wrap: wrap;
-        line-height: 2;
-        margin-bottom: 0;
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-        letter-spacing: 2px;
 
-    }
+
     .contact-buttoms {
         margin-top: 5px;
         /* Set flexbox for the parent */
@@ -369,7 +396,7 @@ h1 {
     font-family: 'Inter', sans-serif;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     /* Vertically center the items */
-    /*-webkit-text-stroke: 0.2px #0a0808;
+    /* -webkit-text-stroke: 0.2px #0a0808;
     /* 2px right, 2px down, blurred with a semi-transparent black color */
     font-size: 26px;
     color: #f0f0f0;
@@ -393,13 +420,14 @@ h1 {
 }
 
 .contact-buttoms {
-    margin-top: 5px;
+    margin-top: 50px;
     /* Set flexbox for the parent */
     /* Center horizontally */
     align-items: center;
     justify-content: center;
     /* Vertically center the items */
     display: flex;
+    gap: 40px;
 }
 
 .button {
@@ -412,54 +440,27 @@ h1 {
     cursor: pointer;
 }
 
-.button-github {
-    width: 100px;
+.button-fab {
     /* Set the width of the button */
-    height: 130px;
     /* Set a fixed height */
-    background-image: url('boton_github/1.png');
+    /* background-image: url('boton_github/1.png'); */
     /* Default background image */
-    background-size: cover;
-    background-position: center;
+    /* background-size: cover; */
+    /* background-position: center; */
     /* Initial rounded corners */
-    transition: background-image 0.3s ease, border-radius 0.3s ease, transform 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 48px;
+    transition: color 0.3s ease, transform 0.3s ease;
     /* Smooth transitions */
     cursor: pointer;
-    border-radius: 10px;
+    /* border-radius: 10px; */
+    color: white;
+    text-align: center;
 }
 
-.button-email {
-    margin-top: 15px;
-    width: 100px;
-    /* Set the width of the button */
-    height: 90px;
-    /* Set a fixed height */
-    background-image: url('email_boton/1.png');
-    /* Default background image */
-    background-size: cover;
-    background-position: center;
-    /* Initial rounded corners */
-    transition: background-image 0.3s ease, border-radius 0.3s ease, transform 0.3s ease;
-    /* Smooth transitions */
-    cursor: pointer;
-    border-radius: 10px;
-}
-
-.button-linkedin {
-    width: 100px;
-    /* Set the width of the button */
-    height: 80px;
-    /* Set a fixed height */
-    background-image: url('Linkedin_boton/1.png');
-    /* Default background image */
-    background-size: cover;
-    background-position: center;
-    /* Initial rounded corners */
-    transition: background-image 0.3s ease, border-radius 0.3s ease, transform 0.3s ease;
-    /* Smooth transitions */
-    cursor: pointer;
-    border-radius: 10px;
-}
 
 html {
     scroll-behavior: smooth;
@@ -499,26 +500,10 @@ html {
     /* Full height of the viewport */
 }
 
-.button-github:hover {
-    background-image: url('boton_github/2.png');
+.button-fab:hover {
+    color: #36ece2;
     /* New background image on hover */
-    border-radius: 50%;
-    /* Change the shape on hover (circular in this case) */
-    transform: scale(1.1);
-}
-
-.button-linkedin:hover {
-    background-image: url('Linkedin_boton/2.png');
-    /* New background image on hover */
-    border-radius: 50%;
-    /* Change the shape on hover (circular in this case) */
-    transform: scale(1.1);
-}
-
-.button-email:hover {
-    background-image: url('email_boton/2.png');
-    /* New background image on hover */
-    border-radius: 50%;
+    /* border-radius: 50%; */
     /* Change the shape on hover (circular in this case) */
     transform: scale(1.1);
 }
